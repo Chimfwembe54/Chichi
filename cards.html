@@ -1,0 +1,161 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Offres</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+    
+        header {
+            height: 180px;
+            background: linear-gradient(135deg, #0d6efd, #084298);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+       
+        .animation-area {
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            height: 50px;
+            width: 50px;
+            background-color: #ffc107;
+            animation: move 6s ease-in-out infinite;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(0);
+                background-color: #ffc107;
+            }
+            50% {
+                transform: translateX(300px);
+                background-color: #dc3545;
+            }
+            100% {
+                transform: translateX(0);
+                background-color: #ffc107;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+<header>
+    <h1>Mon Entreprise</h1>
+</header>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom ">
+    <div class="container fluidz">
+        <a class="navbar-brand fw-bold" href="#">Logo</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item"><a class="nav-link" href="#">Caractéristiques</a></li>
+            <li class="nav-item "><a class="nav-link" href="#">Entreprise</a></li>
+            <li class="nav-item "><a class="nav-link" href="#">Tarification</a></li>
+         <li class="nav-item "><a class="nav-link disabled" href="#">Disabled</a></li>
+        
+        </ul>
+
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-primary">Search</button>
+        </form>
+    </div>
+    <p> allways wehn you want to add an action to your website and  the like  kaya i have fogotttrn but you put the link for java script which deos the ation and tostyle you use class  what are these thimng sfor ma text center and whatevre</p>
+</nav>
+
+
+<div class="animation-area">
+    <div class="box"></div>
+</div>
+
+
+<section class="container text-center my-5">
+    <h1>Nos Offres</h1>
+    <p class="text-muted mb-5">
+        Choisissez le plan qui correspond le mieux à votre activité.
+    </p>
+
+    <div class="row justify-content-center g-4">
+
+        <div class="col-md-4">
+            <div class="card shadow h-100">
+                <div class="card-header fw-bold">Gratuit</div>
+                <div class="card-body">
+                    <h2>0 $ <small class="text-muted">/ mois</small></h2>
+                    <ul class="list-unstyled my-4">
+                        <li>10 utilisateurs inclus</li>
+                        <li>2 Go de stockage</li>
+                        <li>Support e-mail</li>
+                    </ul>
+                    <button class="btn btn-outline-primary">
+                        Inscription gratuite
+                    </button>
+                </div>
+            </div>
+        </div>
+
+     
+        <div class="col-md-4">
+            <div class="card border-primary shadow h-100">
+                <div class="card-header fw-bold">Pro</div>
+                <div class="card-body">
+                    <h2>15 $ <small class="text-muted">/ mois</small></h2>
+                    <ul class="list-unstyled my-4">
+                        <li>20 utilisateurs inclus</li>
+                        <li>10 Go de stockage</li>
+                        <li>Support prioritaire</li>
+                    </ul>
+                    <button class="btn btn-primary">
+                        Commencer
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="col-md-4">
+            <div class="card shadow h-100">
+                <div class="card-header fw-bold">Entreprise</div>
+                <div class="card-body">
+                    <h2>29 $ <small class="text-muted">/ mois</small></h2>
+                    <ul class="list-unstyled my-4">
+                        <li>30 utilisateurs inclus</li>
+                        <li>15 Go de stockage</li>
+                        <li>Support téléphone & e-mail</li>
+                    </ul>
+                    <button class="btn btn-primary">
+                        Contactez-nous
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="bg-primary text-white text-center py-3">
+    © 2025 MonEntreprise — Tous droits réservés
+</footer>
+
+</body>
+</html>
